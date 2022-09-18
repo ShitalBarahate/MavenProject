@@ -29,7 +29,7 @@ public class MavenDemoGuru
 	  @Test
 	  public void loginCheck()
 	  {
-		  System.out.println("Test....login check");
+		  System.out.println("Testing login check functinality...");
 		  driver.findElement(By.name("userName")).sendKeys("QQQQ");
 		  driver.findElement(By.name("password")).sendKeys("qqqq");
 		  driver.findElement(By.name("submit")).click();
